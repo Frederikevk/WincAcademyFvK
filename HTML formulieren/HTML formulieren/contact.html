@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title> Contactformulier </title>
+</head>
+
+<body id="body-background">
+        <header class="box-1">
+            <h1 class="center-title">Contact</h1>
+        </header>
+    <nav class="box-2">
+        <ul class="navigation-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html" target="_blank">About</a></li>
+            <li><a href="contact.html" target="_blank">Contact</a></li>
+            <li><a href="http://www.nu.nl" target="_blank">Nu.nl</a></li>
+            <li><a href="http://www.weer.nl" target="_blank">Het weer</a></li>
+        </ul>
+    </nav>
+    <main class="box-3">
+        <h2>Contactformulier</h2>
+        <form name="contact" method="POST" data-netlify="true">
+            <p>
+              <label>Naam: <input type="text" name="name" /></label>   
+            </p>
+            <p>
+              <label>Email-adres: <input type="email" name="email" /></label>
+            </p>
+            <p>
+            <label>Leeftijd: <input type="text" name="age" /></label>
+            </p>
+            <p>
+            <label>Geboortedatum: <input type="date" name="date-of-birth" /></label>
+            </p>
+            Geslacht: 
+                <label>Man<input type="radio" name="gender"/></label>
+                <label>Vrouw<input type="radio" name="gender"/></label>
+                <label>Anders<input type="radio" name="gender"/></label>
+            <p>
+            Favoriete Cuisine: 
+                <label>Frans<input type="checkbox"/></label>
+                <label>Italiaans<input type="checkbox"/></label>
+                <label>Spaans<input type="checkbox"/></label>
+                <label>Arabisch<input type="checkbox"/></label>
+            </p>
+            <p>
+                <label>Favoriete kleur van schort: <input type="color"/></label>
+            </p>
+            <p>
+                 <label>Biografie: <textarea name="message" rows="10" cols="30"></textarea></label>
+            </p>
+            <p>
+                <label>Upload je laatste recept: <input type="file"></label>
+            </p>
+            <p>
+                <label>URL naar je recepten website: <input type="url"></label>
+            </p>
+            <p>
+                <button type="reset">Formulier leegmaken</button>
+            </p>
+            <p>
+                <button type="submit">Verzenden</button>
+            </p>
+          </form>
+    </main>
+    <footer class="box-4">
+        <h6>Deze website is gemaakt door Frederike van Kempen</h6>
+    </footer>
+</body>
+
+</html>
