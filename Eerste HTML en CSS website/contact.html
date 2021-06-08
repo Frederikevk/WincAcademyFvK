@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title> Frederike's katten - Contact </title>
+</head>
+
+<body id="body-background">
+        <header class="box-1">
+            <h1 class="center-title">Contact</h1>
+        </header>
+    <nav class="box-2">
+        <ul class="navigation-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html" target="_blank">About</a></li>
+            <li><a href="contact.html" target="_blank">Contact</a></li>
+        </ul>
+    </nav>
+    <main class="box-3">
+        <h2>Contactformulier</h2>
+        <p>Om deze leuke katten een keer te willen aaien kun je gerust contact opnemen via dit formulier. De dames willen graag zo veel mogelijk over jou te weten komen om niet voor verrassingen te staan.
+         <br> 
+         <br> 
+          Hopelijk tot snel!
+        </p>
+        <form name="contact" method="POST" data-netlify="true">
+            <p>
+              <label>Naam: <input type="text" name="name" /></label>   
+            </p>
+            <p>
+              <label>Email-adres: <input type="email" name="email" /></label>
+            </p>
+            <p>
+            <label>Geboortedatum: <input type="date" name="date-of-birth" /></label>
+            </p>
+           <label>Geslacht: </label>
+            <div>
+                <label for="male">Man</label>
+                <input type="radio" name="gender" id="male" value="male" />
+              </div>
+              <div>
+                <label for="female">Vrouw</label>
+                <input type="radio" name="gender" id="female" value="female" />
+                </div>
+            <p>
+            Voorkeur voor kat(ten): 
+            <div>
+                <label for="pnappie">Pnappie</label>
+                <input type="checkbox" name="pnappie" id="pnappie" />
+              </div>
+              <div>
+                <label for="kiwi">Kiwi</label>
+                <input type="checkbox" name="kiwi" id="kiwi" />
+              </div>
+            </p>
+            <div>
+                <label for="color">Favoriete kleur: </label>
+                <input type="color" name="color" id="color" />
+            </div>
+            <p>Motivatie: </p>
+            
+            <label><textarea name="message" rows="10" cols="30"></textarea></label>
+            
+            <p>
+                <label>Upload hier je katten-aai-CV: <input type="file"></label>
+            </p>
+            <p>
+                <label>URL naar leuke kattenplaatjes of filmpjes: <input type="url"></label>
+            </p>
+            <p>
+                <button type="reset">Formulier leegmaken</button>
+            </p>
+            <p>
+                <button type="submit">Verzenden</button>
+            </p>
+          </form>
+    </main>
+    <footer class="box-4">
+        <h6>Deze website is gemaakt door Frederike van Kempen</h6>
+    </footer>
+</body>
+
+</html>
