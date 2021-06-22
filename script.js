@@ -1,20 +1,14 @@
-// Verander deze input om te zien of je code werkt.
-// Comment bijvoorbeeld regel 8 tot 11 weer aan, en regel 3 tot 5 uit.
+
 const age = 18;
 const isFemale = true;
 const driverStatus = "bob";
 
-/*
-Testdata
-const age = 16; 
-const isFemale = false;
-const driverStatus = 808; 
-*/
+
 
 if (age >= 18) {
   console.log("Je mag naar binnen");
 } else {
-  console.log("Nope, je mag niet naar binnen");
+  console.log("Je mag niet naar binnen");
 }
 
 if (isFemale) {
