@@ -1,0 +1,76 @@
+* {
+  list-style: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+label {
+  margin: 40px;
+  font-size: 60px;
+  display: inline;
+  cursor: pointer;
+}
+
+.ul-menu {
+  visibility: hidden;
+}
+
+.homeWit {
+  border: black 4px solid;
+  border-radius: 25px;
+  width: 150px;
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+}
+
+.groen {
+  border: black 4px solid;
+  border-radius: 25px;
+  width: 150px;
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+}
+
+.paars {
+  border: black 4px solid;
+  border-radius: 25px;
+  width: 150px;
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+}
+
+.rood {
+  border: black 4px solid;
+  border-radius: 25px;
+  width: 150px;
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+}
+
+.cyaan {
+  border: black 4px solid;
+  border-radius: 25px;
+  width: 150px;
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+}
+
+.homeWit:hover {
+  background-color: white;
+}
+.groen:hover {
+  background-color: green;
+}
+.paars:hover {
+  background-color: purple;
+}
+.rood:hover {
+  background-color: red;
+}
+.cyaan:hover {
+  background-color: cyan;
+}
